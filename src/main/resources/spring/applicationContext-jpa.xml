@@ -21,7 +21,7 @@
     <!-- JPA实体管理工厂的配置 -->
     <bean id="entityManagerFactory"
           class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-        <property name="packagesToScan" value="com.bishe.entity" />
+        <property name="packagesToScan" value="com.bishe.domain" />
         <property name="jpaVendorAdapter" ref="hibernateJpaVendorAdapter" />
         <property name="dataSource" ref="dataSource" />
         <property name="jpaProperties">

@@ -11,6 +11,10 @@
     <title>login</title>
 </head>
 <body>
-welcome!
+
+<form action="${pageContext.request.contextPath}/login/login.htm" method="post">
+    <input type="text" name="userName">
+    <input type="submit">
+</form>
 </body>
 </html>
